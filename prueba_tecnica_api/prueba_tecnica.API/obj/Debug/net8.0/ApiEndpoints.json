@@ -1,0 +1,151 @@
+[
+  {
+    "ContainingType": "prueba_tecnica.API.Controllers.ProductController",
+    "Method": "DeleteProductById",
+    "RelativePath": "api/Product/deleteProductById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "prueba_tecnica.Application.DTOs.Common.ApiException",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "ApiResponse\u00601[[prueba_tecnica.Application.DTOs.ProductDto, prueba_tecnica.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "prueba_tecnica.API.Controllers.ProductController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/Product/getAllProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "prueba_tecnica.Application.DTOs.Common.ApiException",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "ApiResponse\u00601[[prueba_tecnica.Application.DTOs.ProductDto, prueba_tecnica.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "prueba_tecnica.API.Controllers.ProductController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Product/getProductById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "prueba_tecnica.Application.DTOs.Common.ApiException",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "ApiResponse\u00601[[prueba_tecnica.Application.DTOs.ProductDto, prueba_tecnica.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "prueba_tecnica.API.Controllers.ProductController",
+    "Method": "RegisterProduct",
+    "RelativePath": "api/Product/registerProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "prueba_tecnica.Application.DTOs.CreateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "prueba_tecnica.Application.DTOs.Common.ApiException",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "ApiResponse\u00601[[prueba_tecnica.Application.DTOs.ProductDto, prueba_tecnica.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "prueba_tecnica.API.Controllers.ProductController",
+    "Method": "UpdateProductById",
+    "RelativePath": "api/Product/updateProductById",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productDto",
+        "Type": "prueba_tecnica.Application.DTOs.UpdateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "prueba_tecnica.Application.DTOs.Common.ApiException",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "ApiResponse\u00601[[prueba_tecnica.Application.DTOs.ProductDto, prueba_tecnica.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

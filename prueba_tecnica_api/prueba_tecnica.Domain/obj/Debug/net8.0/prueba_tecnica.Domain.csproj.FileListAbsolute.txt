@@ -9,3 +9,15 @@ D:\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Doma
 D:\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\refint\prueba_tecnica.Domain.dll
 D:\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.pdb
 D:\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\ref\prueba_tecnica.Domain.dll
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\bin\Debug\net8.0\prueba_tecnica.Domain.deps.json
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\bin\Debug\net8.0\prueba_tecnica.Domain.dll
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\bin\Debug\net8.0\prueba_tecnica.Domain.pdb
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.AssemblyInfoInputs.cache
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.AssemblyInfo.cs
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.csproj.CoreCompileInputs.cache
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.sourcelink.json
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.dll
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\refint\prueba_tecnica.Domain.dll
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\prueba_tecnica.Domain.pdb
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Domain\obj\Debug\net8.0\ref\prueba_tecnica.Domain.dll

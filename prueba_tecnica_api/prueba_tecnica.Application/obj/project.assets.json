@@ -576,23 +576,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Elsantio\\.nuget\\packages\\": {},
+    "C:\\Users\\ofima88\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\prueba_tecnica\\prueba_tecnica_api\\prueba_tecnica.Application\\prueba_tecnica.Application.csproj",
+      "projectUniqueName": "C:\\tech_test\\tech_test\\prueba_tecnica_api\\prueba_tecnica.Application\\prueba_tecnica.Application.csproj",
       "projectName": "prueba_tecnica.Application",
-      "projectPath": "D:\\prueba_tecnica\\prueba_tecnica_api\\prueba_tecnica.Application\\prueba_tecnica.Application.csproj",
-      "packagesPath": "C:\\Users\\Elsantio\\.nuget\\packages\\",
-      "outputPath": "D:\\prueba_tecnica\\prueba_tecnica_api\\prueba_tecnica.Application\\obj\\",
+      "projectPath": "C:\\tech_test\\tech_test\\prueba_tecnica_api\\prueba_tecnica.Application\\prueba_tecnica.Application.csproj",
+      "packagesPath": "C:\\Users\\ofima88\\.nuget\\packages\\",
+      "outputPath": "C:\\tech_test\\tech_test\\prueba_tecnica_api\\prueba_tecnica.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Elsantio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ofima88\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -601,14 +601,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\prueba_tecnica\\prueba_tecnica_api\\prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj": {
-              "projectPath": "D:\\prueba_tecnica\\prueba_tecnica_api\\prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj"
+            "C:\\tech_test\\tech_test\\prueba_tecnica_api\\prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj": {
+              "projectPath": "C:\\tech_test\\tech_test\\prueba_tecnica_api\\prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj"
             }
           }
         }
@@ -623,7 +624,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -650,7 +651,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

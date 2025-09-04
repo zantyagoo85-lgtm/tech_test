@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba_tecnica.Application", "prueba_tecnica.Application\prueba_tecnica.Application.csproj", "{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba_tecnica.Infrastructure", "prueba_tecnica.Infrastructure\prueba_tecnica.Infrastructure.csproj", "{DC4E8D0E-CD34-407B-82A7-C224311C65B1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba_tecnica.API", "prueba_tecnica.API\prueba_tecnica.API.csproj", "{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba_tecnica.Front", "prueba_tecnica.Front\prueba_tecnica.Front\prueba_tecnica.Front.csproj", "{14C7CDF4-507D-4855-9EF4-3EA746610C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba_tecnica.Front.Client", "prueba_tecnica.Front\prueba_tecnica.Front.Client\prueba_tecnica.Front.Client.csproj", "{048230DB-F45F-4CB2-84F9-E892D9E879F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C7CDF4-507D-4855-9EF4-3EA746610C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C7CDF4-507D-4855-9EF4-3EA746610C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C7CDF4-507D-4855-9EF4-3EA746610C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C7CDF4-507D-4855-9EF4-3EA746610C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048230DB-F45F-4CB2-84F9-E892D9E879F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048230DB-F45F-4CB2-84F9-E892D9E879F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048230DB-F45F-4CB2-84F9-E892D9E879F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048230DB-F45F-4CB2-84F9-E892D9E879F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,33 @@
+﻿@using prueba_tecnica.Application.DTOs
+
+@page "/productos"
+@inject ProductApiService ProductService
+
+<h3>Lista de Productos</h3>
+
+@if (productos == null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <ul>
+        @foreach (var producto in productos)
+        {
+            <li>@producto.Name - @producto.Price</li>
+        }
+    </ul>
+}
+
+@code {
+    List<ProductDto>? productos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await ProductService.GetAllProductsAsync();
+        if (response.Success)
+        {
+            productos = response.Data;
+        }
+    }
+}

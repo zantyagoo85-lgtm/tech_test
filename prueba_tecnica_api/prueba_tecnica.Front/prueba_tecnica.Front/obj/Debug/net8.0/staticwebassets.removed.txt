@@ -1,0 +1,4 @@
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front\wwwroot\app.css
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front\wwwroot\bootstrap\bootstrap.min.css
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front\wwwroot\bootstrap\bootstrap.min.css.map
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front\wwwroot\favicon.png
