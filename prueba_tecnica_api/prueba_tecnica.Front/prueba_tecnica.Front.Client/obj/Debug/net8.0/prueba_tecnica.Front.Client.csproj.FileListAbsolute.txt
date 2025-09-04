@@ -1059,10 +1059,10 @@ C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Fr
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\ssms0i4xqy-tptq2av103.gz
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\jvvfgfims2-lfu7j35m59.gz
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\owhw7gtjwx-oyz0vx2fzb.gz
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\c9j8nkg1tx-5r3az3cvxp.gz
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\y7wyn3ddms-r362s6riy8.gz
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\kwwwgp9to1-vn4p5x7zku.gz
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\bp4w3bvpy5-hkso8dm48e.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\c9j8nkg1tx-esdklds013.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\y7wyn3ddms-qtacmmoss0.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\kwwwgp9to1-oprmhumqyx.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\bp4w3bvpy5-i4qwji4d8n.gz
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\staticwebassets.build.json
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\staticwebassets.development.json
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -1078,6 +1078,6 @@ C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Fr
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\refint\prueba_tecnica.Front.Client.dll
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\prueba_tecnica.Front.Client.pdb
 C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\ref\prueba_tecnica.Front.Client.dll
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\g8ifj2fd8v-3570mp14vb.gz
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\e5blhw7s3q-0efbtoqq6a.gz
-C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\rmuehjndzp-id61fqbrjf.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\g8ifj2fd8v-zsb5yajt8q.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\e5blhw7s3q-ophx5s412f.gz
+C:\tech_test\tech_test\prueba_tecnica_api\prueba_tecnica.Front\prueba_tecnica.Front.Client\obj\Debug\net8.0\compressed\rmuehjndzp-hv8rnvm6oh.gz

@@ -28,12 +28,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/tech_test/tech_test/prueba_tecnica_api/prueba_tecnica.Front/prueba_tecnica.Front.Client/Pages/Component.razor.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9yLnJhem9y
+[C:/tech_test/tech_test/prueba_tecnica_api/prueba_tecnica.Front/prueba_tecnica.Front.Client/Components/ConfirmacionModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb25maXJtYWNpb25Nb2RhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/tech_test/tech_test/prueba_tecnica_api/prueba_tecnica.Front/prueba_tecnica.Front.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/tech_test/tech_test/prueba_tecnica_api/prueba_tecnica.Front/prueba_tecnica.Front.Client/Components/ProductoEdicionModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQcm9kdWN0b0VkaWNpb25Nb2RhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/tech_test/tech_test/prueba_tecnica_api/prueba_tecnica.Front/prueba_tecnica.Front.Client/Pages/Index.razor]

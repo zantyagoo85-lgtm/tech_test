@@ -1,0 +1,52 @@
+﻿@using prueba_tecnica.Application.DTOs
+
+@if (Visible)
+{
+    <div class="modal fade show d-block" tabindex="-1" style="background:rgba(0,0,0,0.5);" aria-modal="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Editar Producto</h5>
+                    <button type="button" class="btn-close" @onclick="OnCancel"></button>
+                </div>
+                <div class="modal-body">
+                    @if (Producto != null)
+                    {
+                        <div class="mb-3">
+                            <label class="form-label">Nombre</label>
+                            <input class="form-control" @bind="Producto.Name" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Descripción</label>
+                            <input class="form-control" @bind="Producto.Description" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Precio</label>
+                            <input type="number" class="form-control" @bind="Producto.Price" step="0.01" />
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="activoCheck" @bind="Producto.IsActive" />
+                            <label class="form-check-label" for="activoCheck">Activo</label>
+                        </div>
+                    }
+                    else
+                    {
+                        <div>Cargando producto...</div>
+                    }
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" @onclick="OnCancel">Cancelar</button>
+                    <button class="btn btn-primary" @onclick="OnSave" disabled="@(!PuedeGuardar)">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public bool Visible { get; set; }
+    [Parameter] public ProductDto? Producto { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+    [Parameter] public EventCallback OnSave { get; set; }
+    private bool PuedeGuardar => Producto != null && !string.IsNullOrWhiteSpace(Producto.Name);
+}

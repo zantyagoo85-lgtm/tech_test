@@ -1,4 +1,55 @@
-﻿@page "/"
+﻿@using prueba_tecnica.Application.DTOs
 
-<h1>Bienvenido a la aplicación Blazor</h1>
-<p>Esta es la página de inicio.</p>
+
+@page "/"
+@inject ProductApiService ProductService
+
+<h1>Bienvenido</h1>
+<p>Catalogo.</p>
+
+@if (productos == null)
+{
+    <div class="alert alert-info">Cargando productos...</div>
+}
+else if (!productos.Any())
+{
+    <div class="alert alert-warning">No hay productos disponibles.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var producto in productos)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@producto.Name</h5>
+                        <p class="card-text">@producto.Description</p>
+                        <p class="card-text fw-bold mb-1">
+                            Precio: @($"$ {producto.Price:N2}")
+                        </p>
+                        <span class="badge @(producto.IsActive ? "bg-success" : "bg-danger")">
+                            @(producto.IsActive ? "Activo" : "Inactivo")
+                        </span>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Disponible desde: @producto.CreatedAt.ToShortDateString()
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+@code {
+    List<ProductDto>? productos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var response = await ProductService.GetAllProductsAsync();
+        if (response?.Success == true)
+        {
+            productos = response.Data;
+        }
+    }
+}

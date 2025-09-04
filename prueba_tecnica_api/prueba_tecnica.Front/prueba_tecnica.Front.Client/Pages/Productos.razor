@@ -1,26 +1,105 @@
 ﻿@using prueba_tecnica.Application.DTOs
+@using prueba_tecnica.Front.Client.Components
 
 @page "/productos"
 @inject ProductApiService ProductService
 
-<h3>Lista de Productos</h3>
+<h3 class="mb-4">Lista de Productos</h3>
+
+<button class="btn btn-success mb-3" @onclick="MostrarModalRegistro">
+    <i class="bi bi-plus-lg"></i> Agregar producto
+</button>
 
 @if (productos == null)
 {
-    <p>Cargando...</p>
+    <div class="alert alert-info">Cargando...</div>
+}
+else if (!productos.Any())
+{
+    <div class="alert alert-warning">No hay productos disponibles.</div>
 }
 else
 {
-    <ul>
-        @foreach (var producto in productos)
-        {
-            <li>@producto.Name - @producto.Price</li>
-        }
-    </ul>
+    <div class="table-responsive">
+        <table class="table table-striped align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Activo</th>
+                    <th>Creado</th>
+                    <th style="width: 160px;">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (ProductDto producto in productos)
+                {
+                    <tr>
+                        <td>@producto.Name</td>
+                        <td>@producto.Description</td>
+                        <td>@($"${producto.Price:N2}")</td>
+                        <td>
+                            @if (producto.IsActive)
+                            {
+                                <span class="badge bg-success">Sí</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">No</span>
+                            }
+                        </td>
+                        <td>@producto.CreatedAt.ToShortDateString()</td>
+                        <td>
+                            <div class="d-flex flex-row">
+                                <button class="btn btn-sm btn-primary me-2" title="Editar" @onclick="() => EditarProducto(producto.Id)">
+                                    <span class="d-none d-md-inline">Editar</span>
+                                </button>
+                                <button class="btn btn-sm btn-danger" title="Eliminar" @onclick="() => MostrarConfirmacionEliminar(producto)">
+                                    <span class="d-none d-md-inline">Eliminar</span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 }
+
+<!-- Modal de edición -->
+<ProductoEdicionModal Visible="mostrarModalEdicion"
+                      Producto="productoEditando"
+                      OnCancel="CerrarModalEdicion"
+                      OnSave="GuardarEdicion" />
+
+<!-- Modal de registro -->
+<ProductoEdicionModal Visible="mostrarModalRegistro"
+                      Producto="productoNuevo"
+                      OnCancel="CerrarModalRegistro"
+                      OnSave="GuardarRegistro" />
+
+<!-- Modal de confirmación de eliminación -->
+<ConfirmacionModal Visible="mostrarModalEliminar"
+                   Titulo="Confirmar eliminación"
+                   Mensaje="@mensajeEliminar"
+                   OnCancel="CerrarModalEliminar"
+                   OnConfirm="ConfirmarEliminarProducto" />
 
 @code {
     List<ProductDto>? productos;
+    bool mostrarModalEdicion = false;
+    ProductDto? productoEditando;
+
+    // Registro
+    bool mostrarModalRegistro = false;
+    ProductDto? productoNuevo;
+
+    bool mostrarModalEliminar = false;
+    ProductDto? productoAEliminar;
+
+    string mensajeEliminar => $"¿Está seguro de que desea eliminar el producto: {productoAEliminar?.Name}?";
+    bool puedeGuardar => productoEditando != null && !string.IsNullOrWhiteSpace(productoEditando.Name);
 
     protected override async Task OnInitializedAsync()
     {
@@ -28,6 +107,121 @@ else
         if (response.Success)
         {
             productos = response.Data;
+        }
+    }
+
+    // --- Registro ---
+    private void MostrarModalRegistro()
+    {
+        productoNuevo = new ProductDto
+        {
+            Name = "",
+            Description = "",
+            Price = 0,
+            IsActive = true,
+            CreatedAt = DateTime.Now
+        };
+        mostrarModalRegistro = true;
+    }
+
+    private void CerrarModalRegistro()
+    {
+        mostrarModalRegistro = false;
+        productoNuevo = null;
+    }
+
+    private async Task GuardarRegistro()
+    {
+        if (productoNuevo != null && !string.IsNullOrWhiteSpace(productoNuevo.Name))
+        {
+            var response = await ProductService.CreateProductAsync(productoNuevo);
+            if (response != null && response.Success)
+            {
+                var productosResponse = await ProductService.GetAllProductsAsync();
+                if (productosResponse.Success)
+                {
+                    productos = productosResponse.Data;
+                }
+                CerrarModalRegistro();
+            }
+        }
+    }
+
+    // --- Edición ---
+    private async void EditarProducto(int id)
+    {
+        mostrarModalEdicion = true;
+        var response = await ProductService.GetProductById(id);
+        if (response?.Success == true && response.Data != null)
+        {
+            productoEditando = new ProductDto
+            {
+                Id = response.Data.Id,
+                Name = response.Data.Name,
+                Description = response.Data.Description,
+                Price = response.Data.Price,
+                IsActive = response.Data.IsActive,
+                CreatedAt = response.Data.CreatedAt
+            };
+        }
+        else
+        {
+            productoEditando = null;
+        }
+        StateHasChanged();
+    }
+
+    private void CerrarModalEdicion()
+    {
+        mostrarModalEdicion = false;
+        productoEditando = null;
+    }
+
+    private async Task GuardarEdicion()
+    {
+        if (productoEditando != null)
+        {
+            var response = await ProductService.UpdateProductAsync(productoEditando);
+            if (response.Success)
+            {
+                var productosResponse = await ProductService.GetAllProductsAsync();
+                if (productosResponse.Success)
+                {
+                    productos = productosResponse.Data;
+                }
+                CerrarModalEdicion();
+            }
+        }
+    }
+
+    // --- Eliminación ---
+    private void MostrarConfirmacionEliminar(ProductDto producto)
+    {
+        productoAEliminar = producto;
+        mostrarModalEliminar = true;
+    }
+
+    private void CerrarModalEliminar()
+    {
+        mostrarModalEliminar = false;
+        productoAEliminar = null;
+    }
+
+    private async Task ConfirmarEliminarProducto()
+    {
+        if (productoAEliminar != null)
+        {
+            var response = await ProductService.DeleteProductAsync(productoAEliminar.Id);
+            if (response != null && response.Success)
+            {
+                var productosResponse = await ProductService.GetAllProductsAsync();
+                if (productosResponse.Success)
+                {
+                    productos = productosResponse.Data;
+                }
+            }
+            CerrarModalEliminar();
+            StateHasChanged();
         }
     }
 }

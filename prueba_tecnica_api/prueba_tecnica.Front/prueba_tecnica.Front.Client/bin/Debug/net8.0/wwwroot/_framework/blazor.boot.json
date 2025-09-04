@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "prueba_tecnica.Front.Client",
   "resources": {
-    "hash": "sha256-jDgPXcj09s/yOOjk/nKOUi8jsaSYPa2EsyID4YC4tj4=",
+    "hash": "sha256-FoxZCcCS9cGb669YJ7SndBqa7US28Xc/EhI//X8TFHQ=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -214,14 +214,14 @@
       "mscorlib.wasm": "sha256-RAf5jgXLg+06C4tJ3CabxAZaVjCN2/+E6fxRjRN8yHk=",
       "netstandard.wasm": "sha256-KCAE8RQwTurP5pGnGF819qf9sK++2O0rXzt6tOjlfi8=",
       "System.Private.CoreLib.wasm": "sha256-LQqLbHgeEX4HONx7GwIxGgmzIXP6n2OPxqnq+/4Tyqk=",
-      "prueba_tecnica.Application.wasm": "sha256-f1/ki+VxesPR+dg5T9OAN4d4pJlMCdMeZwa10rdfOTc=",
-      "prueba_tecnica.Domain.wasm": "sha256-Zy94iu8SM+0BjErbC50Oj+houtHYp8QPhY6QBLVTqXw=",
-      "prueba_tecnica.Front.Client.wasm": "sha256-2fEOrRgrQvb58dp924o/L5PQfDlmRyhdJ4UCKePJZM4="
+      "prueba_tecnica.Application.wasm": "sha256-MjSqcyfIgzuP8PTKJQCxCEMlQMBzgPpgNCG72myQHy0=",
+      "prueba_tecnica.Domain.wasm": "sha256-MtDkJiYuvSTP4xcIH9Hqdp3noNGInuBuUbM6szA3+tM=",
+      "prueba_tecnica.Front.Client.wasm": "sha256-AwWxzMQkVlRjq8p5GVR0T3zO4BvsQHz3dMIbUDHIJ9A="
     },
     "pdb": {
-      "prueba_tecnica.Application.pdb": "sha256-21xJ0P53sktktv6761/qpt/ls0UBkTUY1+2GRdAnaCw=",
-      "prueba_tecnica.Domain.pdb": "sha256-X50ybwLFDYmYZVlMmTAscJOiUMfaaQQ3aTY86m1ZOH0=",
-      "prueba_tecnica.Front.Client.pdb": "sha256-WCDJViTc8yfiV/NKLom74D9RrogFUc2Gyh61BjBpoEI="
+      "prueba_tecnica.Application.pdb": "sha256-NAEpvBKyu66nNJc3kLxWpTWtZfSsqNKkSxrbXorYsOg=",
+      "prueba_tecnica.Domain.pdb": "sha256-QkcHNGyckYUn6cHQIg8hR9VqEKSs4LgXI19WL9Lisjo=",
+      "prueba_tecnica.Front.Client.pdb": "sha256-FJNlu8YPmXLX9d6MmOhNOnwuAmziQbsq17eZI9i25Hg="
     }
   },
   "cacheBootResources": true,
