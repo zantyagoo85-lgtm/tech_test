@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\prueba_tecnica_api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\formvalidations\\formproduct\\formproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\formvalidations\\formproduct\\formproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\formvalidations\\formproduct\\iformproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\formvalidations\\formproduct\\iformproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4E8D0E-CD34-407B-82A7-C224311C65B1}|prueba_tecnica.Infrastructure\\prueba_tecnica.Infrastructure.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4E8D0E-CD34-407B-82A7-C224311C65B1}|prueba_tecnica.Infrastructure\\prueba_tecnica.Infrastructure.csproj|solutionrelative:prueba_tecnica.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4E8D0E-CD34-407B-82A7-C224311C65B1}|prueba_tecnica.Infrastructure\\prueba_tecnica.Infrastructure.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4E8D0E-CD34-407B-82A7-C224311C65B1}|prueba_tecnica.Infrastructure\\prueba_tecnica.Infrastructure.csproj|solutionrelative:prueba_tecnica.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|solutionrelative:prueba_tecnica.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}|prueba_tecnica.API\\prueba_tecnica.API.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}|prueba_tecnica.API\\prueba_tecnica.API.csproj|solutionrelative:prueba_tecnica.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}|prueba_tecnica.API\\prueba_tecnica.API.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.api\\prueba_tecnica.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}|prueba_tecnica.API\\prueba_tecnica.API.csproj|solutionrelative:prueba_tecnica.api\\prueba_tecnica.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|solutionrelative:prueba_tecnica.domain\\interfaces\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\dtos\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\dtos\\common\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\dtos\\common\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|solutionrelative:prueba_tecnica.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC4E8D0E-CD34-407B-82A7-C224311C65B1}|prueba_tecnica.Infrastructure\\prueba_tecnica.Infrastructure.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC4E8D0E-CD34-407B-82A7-C224311C65B1}|prueba_tecnica.Infrastructure\\prueba_tecnica.Infrastructure.csproj|solutionrelative:prueba_tecnica.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}|prueba_tecnica.API\\prueba_tecnica.API.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1D1DB1A-96BC-42FF-B1FE-81C7F36E633C}|prueba_tecnica.API\\prueba_tecnica.API.csproj|solutionrelative:prueba_tecnica.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21D2B7B-DF29-4FCD-9194-BA7BB37DF659}|prueba_tecnica.Domain\\prueba_tecnica.Domain.csproj|solutionrelative:prueba_tecnica.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|d:\\prueba_tecnica_api\\prueba_tecnica.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F1A38DC-1DA7-4795-9DDC-54E3729515A4}|prueba_tecnica.Application\\prueba_tecnica.Application.csproj|solutionrelative:prueba_tecnica.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFormProduct.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\FormValidations\\FormProduct\\IFormProduct.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\FormValidations\\FormProduct\\IFormProduct.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\FormValidations\\FormProduct\\IFormProduct.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\FormValidations\\FormProduct\\IFormProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:02:25.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormProduct.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\FormValidations\\FormProduct\\FormProduct.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\FormValidations\\FormProduct\\FormProduct.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\FormValidations\\FormProduct\\FormProduct.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\FormValidations\\FormProduct\\FormProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T05:02:16.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "prueba_tecnica.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:43:13.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "prueba_tecnica.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:37:54.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "prueba_tecnica.API.csproj",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.API\\prueba_tecnica.API.csproj",
+              "RelativeDocumentMoniker": "prueba_tecnica.API\\prueba_tecnica.API.csproj",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.API\\prueba_tecnica.API.csproj",
+              "RelativeToolTip": "prueba_tecnica.API\\prueba_tecnica.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-04T04:26:53.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Mapper\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\Mapper\\AutoMapper.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Mapper\\AutoMapper.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\Mapper\\AutoMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:15:37.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Domain\\Interfaces\\IBaseRepository.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Interfaces\\IBaseRepository.cs",
+              "RelativeToolTip": "prueba_tecnica.Domain\\Interfaces\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:12:41.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "prueba_tecnica.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:05:30.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiException.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\DTOs\\Common\\ApiException.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\DTOs\\Common\\ApiException.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\DTOs\\Common\\ApiException.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\DTOs\\Common\\ApiException.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwAAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:00:35.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\DTOs\\Common\\ApiResponse.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\DTOs\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\DTOs\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T04:00:24.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T03:47:27.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\Services\\IProductService.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Services\\IProductService.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T03:47:12.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T03:41:34.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "prueba_tecnica.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T03:02:22.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "prueba_tecnica.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:40:25.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.API\\Program.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.API\\Program.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.API\\Program.cs",
+              "RelativeToolTip": "prueba_tecnica.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:32:01.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "prueba_tecnica.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "prueba_tecnica.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-04T02:29:08.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Domain\\Class1.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Domain\\Class1.cs",
+              "RelativeToolTip": "prueba_tecnica.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:26:53.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "prueba_tecnica.Application\\Class1.cs",
+              "ToolTip": "D:\\prueba_tecnica_api\\prueba_tecnica.Application\\Class1.cs",
+              "RelativeToolTip": "prueba_tecnica.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T02:26:09.266Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

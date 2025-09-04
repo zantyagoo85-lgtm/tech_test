@@ -1,0 +1,11 @@
+D:\prueba_tecnica_api\prueba_tecnica.Application\bin\Debug\net8.0\prueba_tecnica.Application.deps.json
+D:\prueba_tecnica_api\prueba_tecnica.Application\bin\Debug\net8.0\prueba_tecnica.Application.dll
+D:\prueba_tecnica_api\prueba_tecnica.Application\bin\Debug\net8.0\prueba_tecnica.Application.pdb
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\prueba_tecnica.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\prueba_tecnica.Application.AssemblyInfoInputs.cache
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\prueba_tecnica.Application.AssemblyInfo.cs
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\prueba_tecnica.Application.csproj.CoreCompileInputs.cache
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\prueba_tecnica.Application.dll
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\refint\prueba_tecnica.Application.dll
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\prueba_tecnica.Application.pdb
+D:\prueba_tecnica_api\prueba_tecnica.Application\obj\Debug\net8.0\ref\prueba_tecnica.Application.dll
